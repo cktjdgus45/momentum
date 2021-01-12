@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Momentum</title>
+</head>
+
+<body>
+    <div class="weatherBtn">
+        <span class="js-weather"></span>
+    </div>
+    <main class="timer">
+        <h1 class="timer-time" aria-label="Current time">
+            00:00
+        </h1>
+        <p class="timer-greeting">
+            Good Morining <strong class="user-name"></strong>
+        </p>
+        <form action="" method="GET" class="timer-form">
+            <input type="text" placeholder="what is your name">
+            <button type="button">Submit</button>
+        </form>
+    </main>
+    <footer class="todo">
+        <div class="todo-modal unactive">
+            <div class="todo-list-wrapper">
+                <h5>
+                    할 일 목록
+                </h5>
+                <ol class="todo-list">
+                    <li>
+                    </li>
+                </ol>
+            </div>
+            <form action="" method="GET" class="todo-form">
+                <input type="text" placeholder="할 일을 입력하세요">
+            </form>
+        </div>
+        <div class="forBtn">
+            <button type="todo-showlist">할 일 목록</button>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+    <script src="./greeting.js"></script>
+    <script src="./todo.js"></script>
+    <script src="./weather.js"></script>
+</body>
+
+</html>
